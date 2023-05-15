@@ -1,0 +1,20 @@
+# Archivos
+*.bak*
+*.ini
+*.mpf
+*.mti
+*.ppf
+*.qip
+*.qws
+*.wlk
+!*.sof
+
+# Directorios
+**/db/
+**/incremental_db/
+**/output_files/*.*
+**/output_files/!*.sof
+**/proj_modelsim/vsim.wlf
+**/proj_modelsim/work
+**/proj_quartus/greybox_tmp
+transcript
